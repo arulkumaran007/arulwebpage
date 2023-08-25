@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO ARUL'S WEBPAGE</title>
+    <style>
+        body {
+            background-color: #3498db; /* Blue background color */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: #2980b9;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Moving text animation */
+        @keyframes moveText {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        h1 {
+            font-size: 32px;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: moveText 10s linear infinite; /* Animation within 10 seconds */
+        }
+
+        nav {
+            background-color: #34495e;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Arul's Webpage</h1>
+    </header>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Arul, a passionate CLOUD ENGINEER with a love for creating Infrastructure in AWS and GCP.</p>
+        </section>
+        
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Cloud Infrastructure Creation</li>
+                <li>IaaS</li>
+                <li>DevOps</li>
+                <li>Managed Services</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Arul's Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
